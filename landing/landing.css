@@ -161,6 +161,20 @@ i {
     padding: 0px 20px 0px 0px;
 }
 @media screen and (min-width: 1440px) {
+    .head{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .buildcommunity{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .grow {
         border: 1px solid hsl(208, 11%, 55%);
         margin: 20px;
