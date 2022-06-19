@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: yellow;
+}
+header{
+    background-color: hsl(193, 100%, 96%);
+}
+main{
+    padding: 20px;    
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;  
+}
+.bigbutton {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+img {
+    width: 200px;
+    height: fit-content;
+}
+@media screen and (min-width: 1440px) {
+    main {
+        display: flex;
+
+    }
+}
