@@ -67,6 +67,19 @@ p{
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
 }
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.fbutton {
+    padding-top: 5px;
+    padding-bottom: -30px;
+    border-radius: 20px;
+    background-color: green;
+}
 @media only screen and (max-width: 1440px){
     /*Laptop*/
 }
